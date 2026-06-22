@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!.gitattributes
+!*.py
+!*.cpp
+!*.php
+
+!rust-color-test-project/
