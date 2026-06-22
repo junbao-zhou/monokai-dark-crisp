@@ -1,0 +1,118 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 880 880"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Monokai Dark Crisp Icon Source</title>
+  <desc id="description">
+    Editable SVG source for a Monokai dark code theme icon.
+  </desc>
+
+  <defs>
+    <linearGradient id="background-gradient" x1="110" y1="0" x2="770" y2="880" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#202124" />
+      <stop offset="0.52" stop-color="#131416" />
+      <stop offset="1" stop-color="#212226" />
+    </linearGradient>
+
+    <linearGradient id="magenta-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d7a" />
+      <stop offset="1" stop-color="#f92672" />
+    </linearGradient>
+
+    <linearGradient id="lime-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7ff32" />
+      <stop offset="1" stop-color="#a6e22e" />
+    </linearGradient>
+
+    <linearGradient id="cyan-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24e6e1" />
+      <stop offset="1" stop-color="#17c9d2" />
+    </linearGradient>
+
+    <linearGradient id="yellow-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd929" />
+      <stop offset="1" stop-color="#ffbe16" />
+    </linearGradient>
+
+    <linearGradient id="orange-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8d18" />
+      <stop offset="1" stop-color="#ff6d00" />
+    </linearGradient>
+
+    <linearGradient id="gray-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a5c63" />
+      <stop offset="1" stop-color="#34363d" />
+    </linearGradient>
+
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.42" />
+    </filter>
+
+    <filter id="small-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.36" />
+    </filter>
+  </defs>
+
+  <g id="background">
+    <rect
+      x="0"
+      y="0"
+      width="880"
+      height="880"
+      rx="132"
+      fill="url(#background-gradient)"
+    />
+  </g>
+
+  <g id="brackets" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft-shadow)">
+    <path
+      id="left-bracket"
+      d="M204 278 L84 443 L204 622"
+      stroke="url(#magenta-gradient)"
+      stroke-width="40"
+    />
+    <path
+      id="right-bracket"
+      d="M676 278 L796 443 L676 622"
+      stroke="url(#lime-gradient)"
+      stroke-width="40"
+    />
+  </g>
+
+  <g id="code-lines" filter="url(#small-shadow)">
+    <g id="row-1">
+      <rect x="268" y="226" width="154" height="40" rx="20" fill="url(#magenta-gradient)" />
+      <rect x="440" y="226" width="98" height="40" rx="20" fill="url(#gray-gradient)" />
+      <circle cx="582" cy="246" r="20" fill="url(#magenta-gradient)" />
+    </g>
+
+    <g id="row-2">
+      <circle cx="287" cy="317" r="20" fill="url(#lime-gradient)" />
+      <rect x="326" y="297" width="278" height="40" rx="20" fill="url(#lime-gradient)" />
+    </g>
+
+    <g id="row-3">
+      <rect x="265" y="368" width="248" height="40" rx="20" fill="url(#cyan-gradient)" />
+      <rect x="530" y="368" width="76" height="40" rx="20" fill="url(#gray-gradient)" />
+    </g>
+
+    <g id="row-4">
+      <rect x="268" y="440" width="86" height="40" rx="20" fill="url(#gray-gradient)" />
+      <rect x="374" y="440" width="180" height="40" rx="20" fill="url(#yellow-gradient)" />
+      <circle cx="589" cy="460" r="20" fill="url(#yellow-gradient)" />
+    </g>
+
+    <g id="row-5">
+      <circle cx="289" cy="530" r="19" fill="url(#orange-gradient)" />
+      <rect x="329" y="510" width="276" height="40" rx="20" fill="url(#orange-gradient)" />
+    </g>
+
+    <g id="row-6">
+      <rect x="270" y="583" width="158" height="40" rx="20" fill="url(#cyan-gradient)" />
+      <rect x="446" y="583" width="96" height="40" rx="20" fill="url(#gray-gradient)" />
+      <circle cx="581" cy="603" r="20" fill="url(#gray-gradient)" />
+    </g>
+  </g>
+</svg>

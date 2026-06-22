@@ -17,5 +17,6 @@
 
 !assets/
 !assets/*.png
+!assets/*.svg
 
 !test-code/
