@@ -4,6 +4,7 @@
   "description": "A crisp high-contrast Monokai dark theme",
   "publisher": "junbao-zhou",
   "version": "0.0.5",
+  "icon": "assets/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/junbao-zhou/monokai-dark-crisp.git"
