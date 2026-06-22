@@ -1,0 +1,28 @@
+{
+  "name": "monokai-dark-crisp",
+  "displayName": "Monokai Dark Crisp",
+  "description": "A crisp high-contrast Monokai dark theme",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junbao-zhou/monokai-dark-crisp.git"
+  },
+  "scripts": {
+    "generate-theme": "node scripts/generate-theme.js"
+  },
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Dark Crisp",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-dark-crisp-color-theme.json"
+      }
+    ]
+  }
+}

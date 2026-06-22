@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Monokai Dark Crisp Tokens",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "surface": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "shadow": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "border": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "accent": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "shell": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "syntax": {
+      "$ref": "#/$defs/colorGroup"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "colorGroup": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/color"
+      }
+    },
+    "color": {
+      "type": "string",
+      "format": "color-hex",
+      "pattern": "^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$"
+    }
+  }
+}

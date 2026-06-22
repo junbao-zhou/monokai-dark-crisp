@@ -1,0 +1,57 @@
+{
+  "$schema": "./monokai-dark-crisp-tokens.schema.json",
+  "surface": {
+    "gray00": "#000000",
+    "gray01": "#090909",
+    "gray02": "#0f0f0f",
+    "gray03": "#131313",
+    "gray04": "#1a1a1a",
+    "gray05": "#1d1d1d",
+    "gray06": "#262626",
+    "gray07": "#333333",
+    "gray08": "#4a4a4a"
+  },
+  "shadow": {
+    "scroll": "#00000088",
+    "widget": "#00000088"
+  },
+  "border": {
+    "transparent": "#00000000",
+    "subtle": "#ffffff24",
+    "normal": "#ffffff33",
+    "strong": "#ffffff44",
+    "scrollbar": "#ffffff24",
+    "scrollbarHover": "#ffffff36",
+    "scrollbarActive": "#ffffff4a"
+  },
+  "accent": {
+    "activeBorder": "#e7e7e7",
+    "activeSelection": "#31566a",
+    "sideBarSelection": "#7fb3cc",
+    "listInactiveSelection": "#dceff5",
+    "listHover": "#e4f3f7",
+    "activeForeground": "#ffffff"
+  },
+  "shell": {
+    "activityBar": "#2b2b2b",
+    "activityBarActiveBorder": "#ffffff",
+    "titleBarActive": "#333333",
+    "titleBarInactive": "#33333399",
+    "statusBar": "#005f9e",
+    "statusBarNoFolder": "#68217a",
+    "statusBarDebugging": "#cc6633",
+    "foregroundStrong": "#ffffff",
+    "foregroundMuted": "#ffffff"
+  },
+  "syntax": {
+    "comment": "#8C8C8C",
+    "constant": "#B09cFF",
+    "function": "#A6E22E",
+    "keyword": "#F92672",
+    "namespace": "#ecffc9",
+    "parameter": "#FD971F",
+    "readonlyVariable": "#D8A0DF",
+    "string": "#FFEE99",
+    "type": "#66D9EF"
+  }
+}

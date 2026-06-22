@@ -1,0 +1,261 @@
+{
+  "colors": {
+    "statusBar.noFolderBackground": "shell.statusBarNoFolder",
+    "activityBar.background": "shell.activityBar",
+    "activityBar.activeBackground": "shell.activityBar",
+    "walkThrough.embeddedEditorBackground": "surface.gray01",
+    "breadcrumb.background": "surface.gray02",
+    "editorGroup.background": "surface.gray02",
+    "editorGroupHeader.noTabsBackground": "surface.gray02",
+    "editorPane.background": "surface.gray02",
+    "sideBar.background": "surface.gray04",
+    "statusBar.background": "shell.statusBar",
+    "statusBar.debuggingBackground": "shell.statusBarDebugging",
+    "textCodeBlock.background": "surface.gray02",
+    "titleBar.activeBackground": "shell.titleBarActive",
+    "titleBar.inactiveBackground": "shell.titleBarInactive",
+    "editor.background": "surface.gray02",
+    "editorCursor.background": "surface.gray02",
+    "editorGroup.emptyBackground": "surface.gray02",
+    "editorGroupHeader.tabsBackground": "surface.gray02",
+    "editorGutter.background": "surface.gray02",
+    "list.focusBackground": {
+      "token": "accent.listHover",
+      "alpha": "38"
+    },
+    "list.hoverBackground": {
+      "token": "accent.listHover",
+      "alpha": "38"
+    },
+    "tab.activeBackground": "surface.gray02",
+    "tab.hoverBackground": "surface.gray04",
+    "tab.inactiveBackground": "surface.gray04",
+    "tab.unfocusedActiveBackground": "surface.gray02",
+    "tab.unfocusedHoverBackground": "surface.gray04",
+    "activityBar.dropBackground": "surface.gray04",
+    "editorSuggestWidget.background": "surface.gray04",
+    "list.activeSelectionBackground": {
+      "token": "accent.sideBarSelection",
+      "alpha": "a2"
+    },
+    "list.inactiveSelectionBackground": {
+      "token": "accent.listInactiveSelection",
+      "alpha": "45"
+    },
+    "menu.selectionBackground": "surface.gray04",
+    "panel.background": "surface.gray04",
+    "peekViewEditor.background": "surface.gray04",
+    "peekViewEditorGutter.background": "surface.gray04",
+    "peekViewResult.background": "surface.gray04",
+    "peekViewTitle.background": "surface.gray04",
+    "sideBar.dropBackground": "surface.gray04",
+    "sideBarSectionHeader.background": "surface.gray06",
+    "terminal.background": "surface.gray04",
+    "terminalCursor.background": "surface.gray04",
+    "editor.lineHighlightBackground": "surface.gray05",
+    "editor.rangeHighlightBackground": "surface.gray05",
+    "badge.background": "surface.gray06",
+    "breadcrumbPicker.background": "surface.gray06",
+    "debugExceptionWidget.background": "surface.gray06",
+    "debugToolBar.background": "surface.gray06",
+    "dropdown.background": "surface.gray06",
+    "dropdown.listBackground": "surface.gray06",
+    "editor.findMatchHighlightBackground": "surface.gray06",
+    "editor.hoverHighlightBackground": "surface.gray06",
+    "editor.selectionHighlightBackground": "surface.gray06",
+    "editor.wordHighlightBackground": "surface.gray06",
+    "editor.wordHighlightStrongBackground": "surface.gray06",
+    "editorBracketMatch.background": "surface.gray06",
+    "editorHoverWidget.background": "surface.gray06",
+    "editorIndentGuide.activeBackground": "surface.gray06",
+    "editorIndentGuide.background": "surface.gray06",
+    "editorMarkerNavigation.background": "surface.gray06",
+    "editorSuggestWidget.selectedBackground": "surface.gray06",
+    "editorWidget.background": "surface.gray06",
+    "extensionButton.prominentBackground": "surface.gray06",
+    "input.background": "surface.gray06",
+    "list.dropBackground": "surface.gray06",
+    "menu.background": "surface.gray06",
+    "menubar.selectionBackground": "surface.gray06",
+    "notifications.background": "surface.gray06",
+    "panel.dropBackground": "surface.gray06",
+    "progressBar.background": "surface.gray06",
+    "settings.checkboxBackground": "surface.gray06",
+    "settings.dropdownBackground": "surface.gray06",
+    "settings.numberInputBackground": "surface.gray06",
+    "settings.textInputBackground": "surface.gray06",
+    "statusBarItem.prominentBackground": "surface.gray06",
+    "textBlockQuote.background": "surface.gray06",
+    "welcomePage.buttonBackground": "surface.gray06",
+    "editor.findMatchBackground": "surface.gray07",
+    "editor.inactiveSelectionBackground": "surface.gray07",
+    "editor.selectionBackground": "surface.gray07",
+    "extensionButton.prominentHoverBackground": "surface.gray07",
+    "inputOption.activeBackground": "surface.gray07",
+    "notificationCenterHeader.background": "surface.gray07",
+    "peekViewEditor.matchHighlightBackground": "surface.gray07",
+    "peekViewResult.matchHighlightBackground": "surface.gray07",
+    "peekViewResult.selectionBackground": "surface.gray07",
+    "welcomePage.buttonHoverBackground": "surface.gray07",
+    "menu.separatorBackground": "surface.gray08",
+    "selection.background": "surface.gray08",
+    "activityBar.border": "border.transparent",
+    "activityBar.activeBorder": "shell.activityBarActiveBorder",
+    "activityBar.foreground": "shell.foregroundStrong",
+    "activityBarBadge.foreground": "shell.foregroundStrong",
+    "list.activeSelectionForeground": "accent.activeForeground",
+    "list.focusForeground": "accent.activeForeground",
+    "list.highlightForeground": "accent.activeForeground",
+    "list.hoverForeground": "accent.activeForeground",
+    "list.inactiveSelectionForeground": "accent.activeForeground",
+    "panelTitle.activeBorder": "accent.activeBorder",
+    "editorGroup.border": "border.normal",
+    "editorGroupHeader.tabsBorder": "border.normal",
+    "editorOverviewRuler.border": "border.normal",
+    "editorHoverWidget.border": "border.strong",
+    "editorSuggestWidget.border": "border.normal",
+    "editorWidget.border": "border.strong",
+    "editorWidget.resizeBorder": "border.strong",
+    "dropdown.border": "border.normal",
+    "input.border": "border.normal",
+    "panel.border": "border.normal",
+    "scrollbarSlider.activeBackground": "border.scrollbarActive",
+    "scrollbarSlider.background": "border.scrollbar",
+    "scrollbarSlider.hoverBackground": "border.scrollbarHover",
+    "sash.hoverBorder": "border.strong",
+    "sideBar.border": "border.normal",
+    "sideBarSectionHeader.border": "border.normal",
+    "statusBar.border": "shell.statusBar",
+    "statusBar.debuggingBorder": "shell.statusBarDebugging",
+    "statusBar.debuggingForeground": "shell.foregroundStrong",
+    "statusBar.foreground": "shell.foregroundStrong",
+    "statusBar.noFolderBorder": "shell.statusBarNoFolder",
+    "statusBar.noFolderForeground": "shell.foregroundStrong",
+    "tab.border": "border.normal",
+    "tab.activeBorder": "accent.activeBorder",
+    "tab.activeBorderTop": "border.transparent",
+    "tab.hoverBorder": "border.normal",
+    "tab.unfocusedActiveBorder": "accent.activeBorder",
+    "tab.unfocusedActiveBorderTop": "border.transparent",
+    "tab.unfocusedHoverBorder": "border.normal",
+    "terminal.border": "border.normal",
+    "terminal.tab.activeBorder": "accent.activeBorder",
+    "titleBar.activeForeground": "shell.foregroundMuted",
+    "titleBar.inactiveForeground": "shell.foregroundMuted",
+    "titleBar.border": "border.transparent",
+    "scrollbar.shadow": "shadow.scroll",
+    "editorStickyScroll.shadow": "shadow.scroll",
+    "panelStickyScroll.shadow": "shadow.scroll",
+    "widget.shadow": "shadow.widget"
+  },
+  "tokenColors": {
+    "comment": {
+      "foreground": "syntax.comment"
+    },
+    "string": {
+      "foreground": "syntax.string"
+    },
+    "keyword": {
+      "foreground": "syntax.keyword"
+    },
+    "storage": {
+      "foreground": "syntax.keyword"
+    },
+    "storage.type": {
+      "foreground": "syntax.type"
+    },
+    "constant.numeric": {
+      "foreground": "syntax.constant"
+    },
+    "constant.language": {
+      "foreground": "syntax.constant"
+    },
+    "constant.character": {
+      "foreground": "syntax.constant"
+    },
+    "constant.other": {
+      "foreground": "syntax.constant"
+    },
+    "entity.name.type.enum": {
+      "foreground": "syntax.type"
+    },
+    "entity.name.class": {
+      "foreground": "syntax.type"
+    },
+    "entity.name.type.class": {
+      "foreground": "syntax.type"
+    },
+    "entity.name.type.struct": {
+      "foreground": "syntax.type"
+    },
+    "entity.other.inherited-class": {
+      "foreground": "syntax.type"
+    },
+    "entity.name.function": {
+      "foreground": "syntax.function"
+    },
+    "entity.name.function.templated": {
+      "foreground": "syntax.function"
+    },
+    "entity.name.function.member.static": {
+      "foreground": "syntax.function"
+    },
+    "meta.instance.constructor": {
+      "foreground": "syntax.function"
+    },
+    "variable.function": {
+      "foreground": "syntax.function"
+    },
+    "variable.parameter": {
+      "foreground": "syntax.parameter"
+    },
+    "support.function": {
+      "foreground": "syntax.function"
+    },
+    "support.type": {
+      "foreground": "syntax.type"
+    },
+    "support.class": {
+      "foreground": "syntax.type"
+    },
+    "support.other.namespace": {
+      "foreground": "syntax.namespace"
+    },
+    "entity.name.namespace": {
+      "foreground": "syntax.namespace"
+    },
+    "entity.name.type.namespace": {
+      "foreground": "syntax.namespace"
+    }
+  },
+  "semanticTokenColors": {
+    "string": "syntax.string",
+    "comment": "syntax.comment",
+    "keyword": "syntax.keyword",
+    "modifier": "syntax.keyword",
+    "operator": "syntax.keyword",
+    "type": "syntax.type",
+    "class": "syntax.type",
+    "interface": "syntax.type",
+    "struct": "syntax.type",
+    "enum": "syntax.type",
+    "decorator": "syntax.type",
+    "number": "syntax.constant",
+    "builtinConstant": "syntax.constant",
+    "constant": "syntax.constant",
+    "enumMember": "syntax.constant",
+    "variable.readonly": "syntax.constant",
+    "property.readonly": "syntax.constant",
+    "function": "syntax.function",
+    "method": "syntax.function",
+    "constructor": "syntax.function",
+    "parameter": "syntax.parameter",
+    "namespace": "syntax.namespace",
+    "function.builtin": "syntax.function",
+    "method.builtin": "syntax.function",
+    "function.defaultLibrary": "syntax.function",
+    "method.defaultLibrary": "syntax.function"
+  },
+  "removeTokenScopes": [],
+  "semanticHighlighting": true
+}
