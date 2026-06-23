@@ -145,8 +145,8 @@
     "sideBar.background": "surface.gray04",
     "sideBar.border": "border.normal",
     "sideBar.dropBackground": "surface.gray04",
-    "sideBarSectionHeader.background": "surface.gray06",
-    "sideBarSectionHeader.border": "border.normal",
+    "sideBarSectionHeader.background": "surface.gray07",
+    "sideBarSectionHeader.border": "border.transparent",
 
     // Status bar
     "statusBar.background": "shell.statusBar",
