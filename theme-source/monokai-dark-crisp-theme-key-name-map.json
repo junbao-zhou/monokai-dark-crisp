@@ -26,26 +26,26 @@
     "dropdown.listBackground": "surface.gray06",
 
     // Editor
-    "editor.background": "surface.gray02",
+    "editor.background": "surface.gray01",
     "editor.hoverHighlightBackground": "surface.gray06",
     "editor.lineHighlightBackground": "surface.gray05",
     "editor.rangeHighlightBackground": "surface.gray05",
     "editor.selectionBackground": "surface.selectionBackground",
     "editorBracketMatch.background": "surface.gray06",
-    "editorCursor.background": "surface.gray02",
+    "editorCursor.background": "surface.gray01",
     "editorGroup.border": "border.normal",
-    "editorGroup.emptyBackground": "surface.gray02",
-    "editorGroupHeader.noTabsBackground": "surface.gray02",
-    "editorGroupHeader.tabsBackground": "surface.gray02",
+    "editorGroup.emptyBackground": "surface.gray01",
+    "editorGroupHeader.noTabsBackground": "surface.gray01",
+    "editorGroupHeader.tabsBackground": "surface.gray01",
     "editorGroupHeader.tabsBorder": "border.normal",
-    "editorGutter.background": "surface.gray02",
+    "editorGutter.background": "surface.gray01",
     "editorHoverWidget.background": "surface.gray06",
     "editorHoverWidget.border": "border.strong",
     "editorIndentGuide.activeBackground1": "surface.gray06",
     "editorIndentGuide.background1": "surface.gray06",
     "editorMarkerNavigation.background": "surface.gray06",
     "editorOverviewRuler.border": "border.normal",
-    "editorPane.background": "surface.gray02",
+    "editorPane.background": "surface.gray01",
     "editorStickyScroll.shadow": "shadow.scroll",
     "editorSuggestWidget.background": "surface.gray04",
     "editorSuggestWidget.border": "border.normal",
@@ -101,11 +101,17 @@
     "notifications.background": "surface.gray06",
 
     // Panel
-    "panel.background": "surface.gray04",
+    "panel.background": "surface.gray03",
     "panel.border": "border.normal",
     "panel.dropBorder": "surface.gray06",
     "panelStickyScroll.shadow": "shadow.scroll",
     "panelTitle.activeBorder": "accent.activeBorder",
+
+    // Terminal
+    "terminal.background": "surface.gray03",
+    "terminal.border": "border.normal",
+    "terminal.tab.activeBorder": "accent.activeBorder",
+    "terminalCursor.background": "surface.gray03",
 
     // Peek view
     "peekViewEditor.background": "surface.gray04",
@@ -167,12 +173,6 @@
     "tab.unfocusedActiveBorderTop": "border.transparent",
     "tab.unfocusedHoverBackground": "surface.gray04",
     "tab.unfocusedHoverBorder": "border.normal",
-
-    // Terminal
-    "terminal.background": "surface.gray04",
-    "terminal.border": "border.normal",
-    "terminal.tab.activeBorder": "accent.activeBorder",
-    "terminalCursor.background": "surface.gray04",
 
     // Text
     "textBlockQuote.background": "surface.gray06",
