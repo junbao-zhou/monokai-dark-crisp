@@ -514,21 +514,13 @@
             "scope": "invalid",
             "settings": {
                 "foreground": "#F8F8F0",
-                "background": "#F92672",
                 "fontStyle": ""
             }
         },
         {
             "scope": "invalid.deprecated",
             "settings": {
-                "foreground": "#F8F8F0",
-                "background": "#FF80F4"
-            }
-        },
-        {
-            "scope": "text source",
-            "settings": {
-                "background": "#3D3D3D55"
+                "foreground": "#F8F8F0"
             }
         },
         {
