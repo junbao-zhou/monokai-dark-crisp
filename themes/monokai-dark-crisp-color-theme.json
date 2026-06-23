@@ -281,11 +281,11 @@
         "terminalCursor.background": "#131313",
         "terminalCursor.foreground": "#ffffff",
         "textBlockQuote.background": "#262626",
-        "textBlockQuote.border": "#666666",
-        "textCodeBlock.background": "#0f0f0f",
+        "textBlockQuote.border": "#007acc80",
+        "textCodeBlock.background": "#262626",
         "textLink.activeForeground": "#008ae5",
         "textLink.foreground": "#007acc",
-        "textPreformat.foreground": "#e6db74",
+        "textPreformat.foreground": "#FFEE99",
         "textSeparator.foreground": "#666666",
         "titleBar.activeBackground": "#333333",
         "titleBar.activeForeground": "#ffffff",
@@ -300,7 +300,8 @@
         "panelStickyScroll.shadow": "#F8F8F228",
         "sash.hoverBorder": "#ffffff44",
         "terminal.tab.activeBorder": "#e7e7e7",
-        "list.deemphasizedForeground": "#8c8c8c"
+        "list.deemphasizedForeground": "#8c8c8c",
+        "textPreformat.background": "#262626"
     },
     "semanticTokenColors": {
         "comment": "#8C8C8C",

@@ -22,6 +22,7 @@
     "subtle": "#ffffff24",
     "normal": "#ffffff33",
     "strong": "#ffffff44",
+    "quoteBlock": "#007acc80",
     "scrollbar": "#ffffff24",
     "scrollbarHover": "#ffffff36",
     "scrollbarActive": "#ffffff4a"

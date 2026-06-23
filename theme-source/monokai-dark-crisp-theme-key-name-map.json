@@ -188,7 +188,10 @@
 
     // Text
     "textBlockQuote.background": "surface.gray06",
-    "textCodeBlock.background": "surface.gray02",
+    "textBlockQuote.border": "border.quoteBlock",
+    "textCodeBlock.background": "surface.gray06",
+    "textPreformat.background": "surface.gray06",
+    "textPreformat.foreground": "syntax.string",
 
     // Title bar
     "titleBar.activeBackground": "shell.titleBarActive",
