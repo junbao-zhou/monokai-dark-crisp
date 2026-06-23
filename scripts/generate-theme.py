@@ -6,16 +6,16 @@ import json5
 
 
 REPOSITORY_ROOT_DIRECTORY = pathlib.Path(__file__).resolve().parent.parent
-THEME_FILE_PATH = REPOSITORY_ROOT_DIRECTORY / "themes" / "monokai-dark-crisp-color-theme.json"
+THEME_FILE_PATH = REPOSITORY_ROOT_DIRECTORY / "themes" / "monokai-dark-crisp-color-theme.jsonc"
 COLOR_NAME_MAP_FILE_PATH = (
     REPOSITORY_ROOT_DIRECTORY
     / "theme-source"
-    / "monokai-dark-crisp-color-name-map.json"
+    / "monokai-dark-crisp-color-name-map.jsonc"
 )
 THEME_KEY_NAME_MAP_FILE_PATH = (
     REPOSITORY_ROOT_DIRECTORY
     / "theme-source"
-    / "monokai-dark-crisp-theme-key-name-map.json"
+    / "monokai-dark-crisp-theme-key-name-map.jsonc"
 )
 
 
