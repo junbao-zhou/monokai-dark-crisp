@@ -10,7 +10,7 @@
     "url": "https://github.com/junbao-zhou/monokai-dark-crisp.git"
   },
   "scripts": {
-    "generate-theme": "node scripts/generate-theme.js"
+    "generate-theme": "python scripts/generate-theme.py"
   },
   "engines": {
     "vscode": "^1.125.0"

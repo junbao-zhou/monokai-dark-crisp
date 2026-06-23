@@ -12,11 +12,11 @@ Monokai Dark Crisp is a high-contrast Monokai dark theme for Visual Studio Code.
 
 [themes/monokai-dark-crisp-color-theme.json](themes/monokai-dark-crisp-color-theme.json): the theme file loaded by VS Code.
 
-[theme-source/monokai-dark-crisp-tokens.json](theme-source/monokai-dark-crisp-tokens.json): reusable color tokens, such as `surface.gray02`, `border.normal`, and `shell.statusBar`.
+[theme-source/monokai-dark-crisp-color-name-map.json](theme-source/monokai-dark-crisp-color-name-map.json): reusable color names, such as `surface.gray02`, `border.normal`, and `shell.statusBar`.
 
-[theme-source/monokai-dark-crisp-background-map.json](theme-source/monokai-dark-crisp-background-map.json): maps VS Code color keys to token paths.
+[theme-source/monokai-dark-crisp-theme-key-name-map.json](theme-source/monokai-dark-crisp-theme-key-name-map.json): maps VS Code theme keys to color name paths.
 
-[scripts/generate-theme.js](scripts/generate-theme.js): reads the token source and mapping file, resolves token paths to color values, and updates the `colors` section in [themes/monokai-dark-crisp-color-theme.json](themes/monokai-dark-crisp-color-theme.json).
+[scripts/generate-theme.py](scripts/generate-theme.py): reads the token source and mapping file, resolves token paths to color values, and updates the generated sections in [themes/monokai-dark-crisp-color-theme.json](themes/monokai-dark-crisp-color-theme.json).
 
 [package.json](package.json): the VS Code extension manifest and npm script definitions.
 
@@ -31,18 +31,24 @@ Example mapping:
 
 ## Generate the Theme
 
+Install the Python dependency once:
+
+```powershell
+python -m pip install json5
+```
+
 Run:
 
 ```powershell
 npm run generate-theme
 ```
 
-Run this after editing the token source or mapping file.
+Run this after editing the color name map or theme key name map.
 
 ## Modify the Theme
 
-To update a shared color value, edit [theme-source/monokai-dark-crisp-tokens.json](theme-source/monokai-dark-crisp-tokens.json).
+To update a shared color value, edit [theme-source/monokai-dark-crisp-color-name-map.json](theme-source/monokai-dark-crisp-color-name-map.json).
 
-To change which token is used by a VS Code color key, edit [theme-source/monokai-dark-crisp-background-map.json](theme-source/monokai-dark-crisp-background-map.json).
+To change which color name is used by a VS Code theme key, edit [theme-source/monokai-dark-crisp-theme-key-name-map.json](theme-source/monokai-dark-crisp-theme-key-name-map.json).
 
 To maintain a color outside the generated mapping, edit [themes/monokai-dark-crisp-color-theme.json](themes/monokai-dark-crisp-color-theme.json) directly.
