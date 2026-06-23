@@ -34,9 +34,9 @@
     "editorBracketMatch.background": "surface.gray06",
     "editorCursor.background": "surface.gray01",
     "editorGroup.border": "border.normal",
-    "editorGroup.emptyBackground": "surface.gray01",
-    "editorGroupHeader.noTabsBackground": "surface.gray01",
-    "editorGroupHeader.tabsBackground": "surface.gray01",
+    "editorGroup.emptyBackground": "surface.gray04",
+    "editorGroupHeader.noTabsBackground": "surface.gray04",
+    "editorGroupHeader.tabsBackground": "surface.gray04",
     "editorGroupHeader.tabsBorder": "border.normal",
     "editorGutter.background": "surface.gray01",
     "editorHoverWidget.background": "surface.gray06",
@@ -69,24 +69,24 @@
     // List
     "list.activeSelectionBackground": {
       "token": "accent.sideBarSelection",
-      "alpha": "a2"
+      "alpha": "82"
     },
     "list.activeSelectionForeground": "accent.activeForeground",
     "list.dropBackground": "surface.gray06",
     "list.focusBackground": {
       "token": "accent.listHover",
-      "alpha": "38"
+      "alpha": "24"
     },
     "list.focusForeground": "accent.activeForeground",
     "list.highlightForeground": "accent.activeForeground",
     "list.hoverBackground": {
       "token": "accent.listHover",
-      "alpha": "38"
+      "alpha": "24"
     },
     "list.hoverForeground": "accent.activeForeground",
     "list.inactiveSelectionBackground": {
       "token": "accent.listInactiveSelection",
-      "alpha": "45"
+      "alpha": "32"
     },
     "list.inactiveSelectionForeground": "accent.activeForeground",
 
