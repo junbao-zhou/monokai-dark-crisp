@@ -13,7 +13,8 @@
     "selectionBackground": "#403d3d"
   },
   "shadow": {
-    "scroll": "#00000088",
+    // "scroll": "#00000088",
+    "scroll": "#F8F8F228",
     "widget": "#00000088"
   },
   "border": {
