@@ -13,7 +13,10 @@
     "badge.background": "surface.gray06",
 
     // Breadcrumb
+    "breadcrumb.activeSelectionForeground": "shell.breadcrumbActiveForeground",
     "breadcrumb.background": "surface.gray02",
+    "breadcrumb.focusForeground": "shell.breadcrumbActiveForeground",
+    "breadcrumb.foreground": "shell.breadcrumbForeground",
     "breadcrumbPicker.background": "surface.gray06",
 
     // Debug
@@ -43,6 +46,8 @@
     "editorHoverWidget.border": "border.strong",
     "editorIndentGuide.activeBackground1": "surface.gray06",
     "editorIndentGuide.background1": "surface.gray06",
+    "editorLineNumber.activeForeground": "shell.editorLineNumberActiveForeground",
+    "editorLineNumber.foreground": "shell.editorLineNumberForeground",
     "editorMarkerNavigation.background": "surface.gray06",
     "editorOverviewRuler.border": "border.normal",
     "editorPane.background": "surface.gray01",
@@ -72,6 +77,7 @@
       "alpha": "82"
     },
     "list.activeSelectionForeground": "accent.activeForeground",
+    "list.deemphasizedForeground": "shell.listDeemphasizedForeground",
     "list.dropBackground": "surface.gray06",
     "list.focusBackground": {
       "token": "accent.listHover",
@@ -90,6 +96,9 @@
     },
     "list.inactiveSelectionForeground": "accent.activeForeground",
 
+    // Git decoration
+    "gitDecoration.ignoredResourceForeground": "shell.fileMutedForeground",
+
     // Menu
     "menu.background": "surface.gray06",
     "menu.selectionBackground": "surface.gray04",
@@ -106,6 +115,7 @@
     "panel.dropBorder": "surface.gray06",
     "panelStickyScroll.shadow": "shadow.scroll",
     "panelTitle.activeBorder": "accent.activeBorder",
+    "panelTitle.inactiveForeground": "shell.panelTitleInactiveForeground",
 
     // Terminal
     "terminal.background": "surface.gray03",
@@ -168,11 +178,13 @@
     "tab.hoverBackground": "surface.gray04",
     "tab.hoverBorder": "border.normal",
     "tab.inactiveBackground": "surface.gray04",
+    "tab.inactiveForeground": "shell.tabInactiveForeground",
     "tab.unfocusedActiveBackground": "surface.gray02",
     "tab.unfocusedActiveBorder": "accent.activeBorder",
     "tab.unfocusedActiveBorderTop": "border.transparent",
     "tab.unfocusedHoverBackground": "surface.gray04",
     "tab.unfocusedHoverBorder": "border.normal",
+    "tab.unfocusedInactiveForeground": "shell.tabUnfocusedInactiveForeground",
 
     // Text
     "textBlockQuote.background": "surface.gray06",
