@@ -40,7 +40,7 @@ python -m pip install json5
 Run:
 
 ```powershell
-npm run generate-theme
+python scripts/generate-theme.py
 ```
 
 Run this after editing the color name map or theme key name map.
