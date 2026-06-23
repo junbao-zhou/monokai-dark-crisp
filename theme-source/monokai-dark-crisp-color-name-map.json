@@ -9,7 +9,8 @@
     "gray05": "#1d1d1d",
     "gray06": "#262626",
     "gray07": "#333333",
-    "gray08": "#4a4a4a"
+    "gray08": "#4a4a4a",
+    "selectionBackground": "#403d3d"
   },
   "shadow": {
     "scroll": "#00000088",

@@ -18,7 +18,7 @@ Monokai Dark Crisp is a high-contrast Monokai dark theme for Visual Studio Code.
 
 [scripts/generate-theme.py](scripts/generate-theme.py): reads the token source and mapping file, resolves token paths to color values, and updates the generated sections in [themes/monokai-dark-crisp-color-theme.json](themes/monokai-dark-crisp-color-theme.json).
 
-[package.json](package.json): the VS Code extension manifest and npm script definitions.
+[package.json](package.json): the VS Code extension manifest and python script definitions.
 
 Example mapping:
 
