@@ -5,8 +5,12 @@
 !*.md
 !*.txt
 !*.json
+!*.yml
 !LICENSE
 !.vscodeignore
+
+!.github/
+!.github/workflows/
 
 !scripts/
 !scripts/*
