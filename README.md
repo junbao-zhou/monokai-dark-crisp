@@ -2,6 +2,16 @@
 
 Monokai Dark Crisp is a high-contrast Monokai dark theme for Visual Studio Code.
 
+For the intended appearance, disable Modern UI in your VS Code settings:
+
+```json
+{
+  "workbench.experimental.modernUI": false
+}
+```
+
+Modern UI overrides some theme colors, including side bar section header backgrounds. Run **Developer: Reload Window** after changing this setting.
+
 ![image-1](./assets/image-1.png)
 
 ![image-2](./assets/image-2.png)

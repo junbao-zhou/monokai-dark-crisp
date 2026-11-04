@@ -221,7 +221,7 @@
         "sideBar.border": "#ffffff33",
         "sideBar.dropBackground": "#1a1a1a",
         "sideBar.foreground": "#ffffff",
-        "sideBarSectionHeader.background": "#333333",
+        "sideBarSectionHeader.background": "#4a4a4a",
         "sideBarSectionHeader.border": "#ffffff33",
         "sideBarSectionHeader.foreground": "#ffffff",
         "sideBarTitle.foreground": "#ffffff",
